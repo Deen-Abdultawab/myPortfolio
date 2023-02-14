@@ -61,8 +61,6 @@ img {
   display: block;
 }
 
-
-
 .btn{
   display: inline-block;
   background: none;
@@ -106,15 +104,23 @@ img {
 
 .nav-menu {
   margin-left: auto;
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: right;
+  /* border: 1px solid yellow; */
+}
+
+.nav-links {
+  /* border: 1px solid red; */
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .nav-links li {
   display: inline-block;
-  margin-right: 1.5rem;
+  cursor: pointer;
 }
 
 .nav-links a {
@@ -124,14 +130,23 @@ img {
   transition: all 0.3s linear;
 }
 
+.nav-links .git-link {
+  font-size: 1.5rem;
+}
+
 .nav-links a:hover {
   color: var(--secondary-color);
 }
+
 
 .logo {
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 1.3px;
+}
+
+.nav-bar .resume-btn {
+  margin-left: 1rem;
 }
 
 .resume-btn {
@@ -293,8 +308,6 @@ img {
   margin-bottom: 5rem;
   padding-top: 5rem;
 }
-
-
 .intro span {
   font-size: 1.3rem;
 }
@@ -305,7 +318,6 @@ img {
   align-items: flex-start;
   justify-content: center;
   margin-top: 1.5rem;
-  
 }
 
 .my-details .name span {
@@ -357,11 +369,9 @@ img {
   font-size: 1rem;
 }
 
-
 .about-me img {
   border-radius: 0.5rem;
   height: 100%;
-  
 }
 
 .col-2 {
@@ -406,6 +416,10 @@ img {
   color: var(--text-color-secondary);
 }
 
+.my-projects {
+  margin-top: 7rem;
+}
+
 .single-project {
   display: grid;
   grid-template-columns: 1.5fr 2fr;
@@ -418,8 +432,6 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
 
 .single-project.inverted {
   grid-template-columns: 2fr 1.5fr;
@@ -588,7 +600,7 @@ img {
   align-items: center;
   justify-content: start;
   flex-wrap: wrap;
-  /* gap: 0.5rem; */
+  gap: 0.3rem;
 }
 
 
