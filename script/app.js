@@ -27,21 +27,23 @@ closeBtn.addEventListener('click', ()=>{
 })
 
 scrollLink.addEventListener('click', (e)=>{
-  e.preventDefault();
+  
   let targetElement = e.target;
   let targetParent = targetElement.parentElement;
   const navHeight = navBar.getBoundingClientRect().height;
   if(targetParent.classList.contains('scroll-link')){
+    e.preventDefault();
     scrollFunction(targetElement, navHeight);
   }
 })
 
 mobileMenu.addEventListener('click', (e)=>{
-  e.preventDefault();
+  
   let targetElement = e.target;
   const navHeight = navBar.getBoundingClientRect().height;
   sidebar.classList.remove('show');
   if(targetElement.classList.contains('scroll-link')){
+    e.preventDefault();
     scrollFunction(targetElement, navHeight);
   }
   
