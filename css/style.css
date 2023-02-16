@@ -639,10 +639,13 @@ img {
   justify-content: center;
   font-size: 1.5rem;
   gap: 3rem;
+}
+
+.contact .links a{
   transition: all 0.3s linear;
 }
 
-.contact .links:hover {
+.contact .links a:hover {
   color: var(--secondary-color);
 }
 
