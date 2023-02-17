@@ -78,7 +78,6 @@ img {
 }
 
 .nav-bar {
-  /* height: 80px; */
   padding: 20px 30px;
   display: flex;
   align-items: center;
@@ -107,11 +106,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: right;
-  /* border: 1px solid yellow; */
 }
 
 .nav-links {
-  /* border: 1px solid red; */
   padding: 0.5rem;
   display: flex;
   align-items: center;
@@ -308,6 +305,7 @@ img {
   margin-bottom: 5rem;
   padding-top: 5rem;
 }
+
 .intro span {
   font-size: 1.3rem;
 }
@@ -557,7 +555,6 @@ img {
   transition: all 0.3s linear;
   opacity: 0;
   overflow: hidden;
-  /* display: none; */
 }
 
 .project-card-1 .link-icons a {
@@ -596,14 +593,13 @@ img {
 }
 
 .other-projects .tech-stack {
-  /* border: 1px solid red; */
   align-items: center;
   justify-content: start;
   flex-wrap: wrap;
   gap: 0.3rem;
 }
 
-.contact {
+.contact, .inspiration {
   width: 100%;
   max-width: 700px;
   margin: 20rem auto 3rem;
@@ -611,7 +607,6 @@ img {
   flex-direction: column;
   text-align: center;
   gap: 1rem;
-  /* border: 1px solid red; */
 }
 
 .hire-btn {
@@ -650,8 +645,6 @@ img {
 }
 
 
-
-
 @media only screen and (min-width: 800px){
   .mobile-menu{
     display: none;
@@ -660,10 +653,9 @@ img {
 
 @media only screen and (max-width: 1100px){
   
-.main-center {
-  width: 90vw;
-}
-
+  .main-center {
+    width: 90vw;
+  }
 
   .intro h1 {
     font-size: 3.6rem;

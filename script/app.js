@@ -27,7 +27,6 @@ closeBtn.addEventListener('click', ()=>{
 })
 
 scrollLink.addEventListener('click', (e)=>{
-  
   let targetElement = e.target;
   let targetParent = targetElement.parentElement;
   const navHeight = navBar.getBoundingClientRect().height;
@@ -38,14 +37,15 @@ scrollLink.addEventListener('click', (e)=>{
 })
 
 mobileMenu.addEventListener('click', (e)=>{
-  
   let targetElement = e.target;
   const navHeight = navBar.getBoundingClientRect().height;
   sidebar.classList.remove('show');
-  if(targetElement.classList.contains('scroll-link')){
+  if(targetElement.classList.contains('scroll-link') || targetElement.classList.contains('fa-solid')){
     e.preventDefault();
     scrollFunction(targetElement, navHeight);
   }
+
+
   
 })
 
