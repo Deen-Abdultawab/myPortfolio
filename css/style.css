@@ -474,6 +474,10 @@ img {
   font-size: 1.2rem;
 }
 
+.other-projects .desc, .project-desc {
+  backdrop-filter: blur(5px);
+}
+
 .tech-stack {
   text-align: left;
   display: flex;
