@@ -548,6 +548,7 @@ img {
   font-weight: bolder;
   position: relative;
   cursor: pointer;
+  height: 15rem;
 }
 
 .other-projects .project-card-1::before {
@@ -804,6 +805,10 @@ img {
   }
   :is(.single-project, .single-project.inverted) .project-desc {
     font-weight: bold;
+  }
+
+  .other-project-container .project-card-1 {
+    height: auto;
   }
 
  
