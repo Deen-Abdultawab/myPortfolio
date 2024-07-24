@@ -438,7 +438,7 @@ img {
 .single-project .project-img {
   background: url("../img/weather-app-tau-liard.vercel.app_.png");
   background-position: fixed;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -681,11 +681,6 @@ img {
   color: var(--secondary-color);
 }
 
-#comfy .project-desc {
-  color: var(--text-color-secondary);
-  font-weight: normal;
-}
-
 
 @media only screen and (min-width: 800px){
   .mobile-menu{
@@ -811,12 +806,11 @@ img {
     font-weight: bold;
   }
 
-  #muso {
-    background: url('../img/muso-ninjas.png');
-  }
+ 
 
-  #comfy {
-    background: url('../img/comfy-store.png');
+  .project-card-1 {
+    background: var(--text-color-secondary) !important;
+    color: var(--primary-color) !important;
   }
   
  
