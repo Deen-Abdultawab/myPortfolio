@@ -839,6 +839,10 @@ img {
   .intro h1 {
     font-size: 25px;
   }
+  .about-me .my-img::before, .about-me .my-img::after {
+    
+    left: 0;
+  }
 }
 
 @media only screen and (max-width: 300px){
