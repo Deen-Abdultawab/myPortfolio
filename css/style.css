@@ -438,7 +438,7 @@ img {
 .single-project .project-img {
   background: url("../img/weather-app-tau-liard.vercel.app_.png");
   background-position: fixed;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
